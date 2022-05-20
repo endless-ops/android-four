@@ -1,11 +1,12 @@
-package cn.dreamchase.android.four;
+package cn.dreamchase.android.four.mthread;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-import cn.dreamchase.android.four.mthread.DownloadFilesTask;
+import cn.dreamchase.android.four.R;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity_AsyncTask extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
